@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "font";
+    src: url("font/GRAPHIK\ ARABIC\ MEDIUM.OTF") format("opentype")
+}
+body{
+    background-color: rgb(51, 197, 255);
+    background-image: url("images/background.png");
+    background-size: cover;
+    font-family: "font";
+    background-position: center;
+}
+.box{
+    border-radius: 20px;
+    border:rgba(255, 255, 255, 0.527) solid;
+    width: 400px;
+    height:200px;
+    margin-right:auto;
+    margin-left:auto;
+    backdrop-filter: blur(20px);
+    padding: 20px;
+    text-align: center;
+}
+.eveinbox{
+    align-items: center;
+}
+.me{
+    text-align: center;
+    color:white
+}
+#rn{
+    color:white;
+    float: left;
+    padding:15px;
+    margin-left:25px
+}
+i{
+    margin-left:3px;
+    font-size:50px;
+    float: inline-start;
+
+}
+a{
+    color:white;
+    margin-top: 5px;
+    clear:left;
+    float: inline-end;
+    text-decoration: none;
+}
+.idnt i{
+    margin-left:15px
+}
+.rn i {
+    margin-left:7px
+}
+.huss{
+    margin-top:10px;
+    margin-bottom: 10px;
+    font-size:20px;
+    margin-right:auto;
+    margin-left:auto;
+    color:white;
+    text-align: center;
+    border:rgba(255, 255, 255, 0.493) solid;
+    width:200px;
+    height:50px;
+    backdrop-filter: blur(5px);
+    padding:15px;
+    border-radius: 10px;
+}
+
+
+
+.huss span{
+    color:rgb(253, 108, 82);
+    font-size:25px;
+    filter:blur(3px);
+    transition: filter 1s;
+    font-weight: bold;
+}
+.huss span:hover{
+    filter: blur(0px)
+}

@@ -1,0 +1,41 @@
+@font-face{
+    font-family: "font";
+    src: url("/files/font/GRAPHIK\ ARABIC\ MEDIUM.OTF")
+}
+body {
+    font-family:"font",monospace;
+    background-color: black;
+    backdrop-filter: blur(2px);
+}
+.picc{
+    font-family:"font",monospace;
+    margin-right:auto;
+    margin-left:auto;
+    align-self: center;
+    width: 250px;
+    height: 150px;
+    border:rgb(201, 133, 133) solid;
+    border-radius: 15px;
+    backdrop-filter: blur(3px);
+    text-align: center;
+    color:white;
+    margin-bottom:5px
+}
+.pic h1{
+    font-weight: bold;
+    color:white;
+}
+.box img{
+    text-decoration: none;
+    width:200px;
+    height:100px;
+    border-radius: 15px;
+    margin-left:10px;
+    margin-top:5px
+}
+#soon{
+    font-size:100px;
+    text-align: center;
+    font-weight: bold;
+    color:white;
+}
